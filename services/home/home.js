@@ -13,7 +13,7 @@ function mockFetchHome() {
           key: 0,
         },
         {
-          text: '夏日防晒',
+          text: '夏日猫猫',
           key: 1,
         },
         {
@@ -27,14 +27,6 @@ function mockFetchHome() {
         {
           text: '好评榜',
           key: 4,
-        },
-        {
-          text: 'RTX 30',
-          key: 5,
-        },
-        {
-          text: '手机也疯狂',
-          key: 6,
         },
       ],
       activityImg: `${cdnBase}/activity/banner.png`,

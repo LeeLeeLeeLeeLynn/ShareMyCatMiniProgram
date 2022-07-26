@@ -80,7 +80,6 @@ Page({
     }
 
     this.setData({ goodsListLoadStatus: 1 });
-
     const pageSize = this.goodListPagination.num;
     let pageIndex =
       this.privateData.tabIndex * pageSize + this.goodListPagination.index + 1;

@@ -6,6 +6,7 @@ function mockFetchGoodsList(pageIndex = 1, pageSize = 20) {
   const { getGoodsList } = require('../../model/goods');
   return delay().then(() =>
     getGoodsList(pageIndex, pageSize).map((item) => {
+      console.log(JSON.parse(item)+"===========")
       return {
         spuId: item.spuId,
         thumb: item.primaryImage,
